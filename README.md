@@ -1,12 +1,22 @@
 # easy-form-component
 An easier way to read forms
 
+## Instructions
+
+Clone the Git repo into your project. 
+
+Import the code like:
 
 ```js
 
 import './easy-form-component/index.js';
 
+```
 
+or
+
+```html
+  <script type="module" src="./easy-form-component/index.js"></script>
 ```
 
 Then use the component like: 
