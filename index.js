@@ -21,6 +21,7 @@ class EasyForm extends HTMLElement {
 
     let values = {};
     [...this.querySelectorAll('input')].forEach(el => {
+      if(el.name === "" && el.type !== 'submit') return console.error('All inputs need an Name attribute');
       switch(el.type){
       case "submit":
         break;
