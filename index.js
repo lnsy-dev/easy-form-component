@@ -1,5 +1,10 @@
+/*
+  
+  EASY FORM
+  by LNSY
+  lnsy.studio
 
-
+*/
 
 
 class EasyForm extends HTMLElement {
