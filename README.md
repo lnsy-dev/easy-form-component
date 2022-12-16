@@ -29,7 +29,7 @@ Then use the component like:
 
 ```
 
-Note that the name attribute is required. 
+Note that the name attribute is required for every input, except for submit. 
 
 You can then tie an event to the "submit" event:
 

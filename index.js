@@ -37,6 +37,12 @@ class EasyForm extends HTMLElement {
         values[el.name] = el.value;
       }
     });
+
+
+    [...this.querySelectorAll('textarea')].forEach(el => {
+      if(el.name === "") return console.error("All inputs require an name attribute");
+      values[el.name] = el.value
+    })
     return values;
   }
 }
