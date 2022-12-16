@@ -24,6 +24,7 @@ Then use the component like:
 ```html
 <easy-form>
   <input type="text" name="cool_name" />
+  <input type="range" name="blah">
   <textarea name="text_area">Text area content</textarea>
   <input type="submit" />
 </easy-form>

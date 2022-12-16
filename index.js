@@ -27,6 +27,7 @@ class EasyForm extends HTMLElement {
       case "submit":
         break;
       case "number":
+      case "range":
         values[el.name] = Number(el.value);
         break;
       case "checkbox":
