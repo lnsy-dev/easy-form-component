@@ -1,5 +1,5 @@
 # easy-form-component
-An easier way to read forms
+An easy wrapper for forms that gives you an object of its values.
 
 ## Instructions
 
@@ -24,6 +24,7 @@ Then use the component like:
 ```html
 <easy-form>
   <input type="text" name="cool_name" />
+  <textarea name="text_area">Text area content</textarea>
   <input type="submit" />
 </easy-form>
 
