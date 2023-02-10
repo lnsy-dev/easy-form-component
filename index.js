@@ -9,7 +9,7 @@
 
 class EasyForm extends HTMLElement {
   connectedCallback(){
-    const submit = document.querySelector('input[type="submit"');
+    const submit = this.querySelector('input[type="submit"');
     if(submit !== null){
       submit.addEventListener('click', (e)=>{
         e.preventDefault(); 
